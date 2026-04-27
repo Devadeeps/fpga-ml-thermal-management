@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FPGA_Temperature_System_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FPGA_Temperature_System_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="215"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/FPGA_Temperature_System_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/V_in" type="array">
+      <obj_property name="ElementShortName">V_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">V_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/I_in" type="array">
+      <obj_property name="ElementShortName">I_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/FPGA_Power" type="array">
+      <obj_property name="ElementShortName">FPGA_Power[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FPGA_Power[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/PWM_Duty" type="array">
+      <obj_property name="ElementShortName">PWM_Duty[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_Duty[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/Freq" type="array">
+      <obj_property name="ElementShortName">Freq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Freq[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/Ambient_Temp" type="array">
+      <obj_property name="ElementShortName">Ambient_Temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Ambient_Temp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/Cooling_Fan" type="array">
+      <obj_property name="ElementShortName">Cooling_Fan[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Cooling_Fan[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/Prev_FPGA_Temp" type="array">
+      <obj_property name="ElementShortName">Prev_FPGA_Temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Prev_FPGA_Temp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/Heat_sink_Temp" type="array">
+      <obj_property name="ElementShortName">Heat_sink_Temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Heat_sink_Temp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/FPGA_Temp" type="array">
+      <obj_property name="ElementShortName">FPGA_Temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FPGA_Temp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/PWM_Freq" type="array">
+      <obj_property name="ElementShortName">PWM_Freq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PWM_Freq[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/Overheat_Risk" type="logic">
+      <obj_property name="ElementShortName">Overheat_Risk</obj_property>
+      <obj_property name="ObjectShortName">Overheat_Risk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/RL_State" type="array">
+      <obj_property name="ElementShortName">RL_State[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RL_State[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/RL_Reward" type="array">
+      <obj_property name="ElementShortName">RL_Reward[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RL_Reward[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FPGA_Temperature_System_TB/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+</wave_config>
